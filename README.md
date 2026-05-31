@@ -4,7 +4,7 @@ A curated library of AI-generated 3D clay render illustrations.
 
 [![CI](https://github.com/feustpat/claybase/actions/workflows/ci.yml/badge.svg)](https://github.com/feustpat/claybase/actions/workflows/ci.yml)
 
-**Live site:** https://claybase.vercel.app
+**Live site:** [claybase.vercel.app](https://claybase.vercel.app)
 
 > **Work in progress.** This project is under active development and may change significantly over time.
 
