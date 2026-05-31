@@ -1,0 +1,14 @@
+---
+creation-date: 2026-05-23
+illustration-model: DALL-E 3
+illustration-style: 3D clay render
+illustration-color-scheme: Catppuccin Mocha
+illustration-accent-colors:
+  - Catppuccin-Green
+  - Catppuccin-Peach
+illustration-tags:
+  - sport
+illustration-aliases:
+  - Bow
+illustration-prompt: "3D icon illustration, a recurve bow standing upright with a gracefully curved limbs and a taut string, no arrow, soft clay render style, smooth rounded shapes, subtle depth and shadow, slight 3/4 perspective, dark background #1e1e2e, accent colors green #a6e3a1 on the bow limbs and peach #fab387 on the grip and string, matte surface finish, soft ambient glow, minimal centered composition, 400x400px square, no text"
+---

@@ -1,0 +1,31 @@
+name: Illustration Flaw
+description: A visual defect in one of the illustrations -- odd proportions, artifacts, wrong colors, etc.
+labels: ["illustration-flaw"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Illustration name
+      placeholder: "e.g. Coffee-Cup"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What looks wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional but helpful. Drag and drop an image here.
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Before submitting
+      options:
+        - label: I understand that minor quirks are expected with AI-generated images and not every imperfection will be fixed.
+          required: true

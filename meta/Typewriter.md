@@ -1,0 +1,16 @@
+---
+creation-date: 2026-05-25
+illustration-model: DALL-E 3
+illustration-style: 3D clay render
+illustration-color-scheme: Catppuccin Mocha
+illustration-accent-colors:
+  - Catppuccin-Peach
+  - Catppuccin-Yellow
+illustration-tags:
+  - arts
+  - knowledge
+illustration-aliases:
+  - Type
+  - Writing
+illustration-prompt: "3D icon illustration, a vintage typewriter with a compact body, rows of rounded keycaps, a cylindrical platen roller across the top, and a small sheet of paper emerging from the top, soft clay render style, smooth rounded shapes, subtle depth and shadow, slight 3/4 perspective, dark background #1e1e2e, accent colors peach #fab387 on the typewriter body and keys and yellow #f9e2af on the platen roller and paper sheet, matte surface finish, soft ambient glow, minimal centered composition, 400x400px square, no text"
+---

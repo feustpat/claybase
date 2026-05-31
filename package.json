@@ -1,0 +1,77 @@
+{
+  "name": "claybase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A curated library of AI-generated 3D clay render illustrations, with a React gallery to browse, search, and download them.",
+  "keywords": [
+    "illustrations",
+    "icons",
+    "gallery",
+    "catppuccin",
+    "clay",
+    "react",
+    "vite",
+    "obsidian"
+  ],
+  "homepage": "https://claybase.vercel.app",
+  "bugs": "https://github.com/feustpat/claybase/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feustpat/claybase.git"
+  },
+  "license": "MIT",
+  "author": "Patrick Feustle",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm run build:data && vite",
+    "build": "npm run build:data && tsc -b && vite build",
+    "build:data": "tsx scripts/build-index.ts",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
+    "test": "vitest",
+    "validate": "tsx scripts/validate-meta.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@vercel/analytics": "^2.0.1",
+    "fflate": "^0.8.3",
+    "fuse.js": "^7.0.0",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.26.2",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/coverage-v8": "^2.1.9",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "gray-matter": "^4.0.3",
+    "jsdom": "^25.0.0",
+    "postcss": "^8.4.41",
+    "prettier": "^3.8.3",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.10",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vitest": "^2.0.5"
+  }
+}
